@@ -261,3 +261,61 @@ second row
 ```
 
 ---
+
+$ echo user
+
+```
+user
+```
+
+---
+
+$ grep "row" a.txt
+
+first <span style="color:red">row</span>
+
+second <span style="color:red">row</span>
+
+---
+
+$ zip a.zip a.txt
+
+```
+adding: a.txt (deflated 10%)
+```
+
+$ ls -la
+
+```
+[...]
+-rw-r--r-- 1 drafff drafff  179 авг 18 21:51 a.zip
+[...]
+```
+
+---
+
+$ rm a.txt
+
+$ unzip a.zip
+
+```
+Archive:  a.zip
+  inflating: a.txt  
+```
+
+$ ls -la
+
+```
+[...]
+-rw-r--r-- 1 drafff drafff   21 авг 14 23:05 a.txt
+-rw-r--r-- 1 drafff drafff  179 авг 18 21:51 a.zip
+[...]
+```
+
+---
+
+$ pwd
+
+```
+/home/drafff/java/github/linux-cmd
+```
