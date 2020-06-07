@@ -116,3 +116,26 @@ $ ps -eo euser,ruser,suser,fuser,f,comm,label
 # отображает данные мониторинга ps, с шагом раз в секунду
 $ watch -n 1 'ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'
 ```
+
+**Найти процесс по ...**
+
+По pid:
+```bash
+$ ps -p 1337 -o comm=
+$ ps -p 1337 -o command
+$ cat /proc/1337/cmdline
+$ ps ax|egrep "^ 1337"
+```
+
+По имени:
+```bash
+$ pidof atom
+$ pgrep atom
+$ ps aux | grep -i atom
+```
+
+По команде запуска:
+```bash
+ps aux | grep 'Xorg'
+ps aux | grep 'atom'
+```
