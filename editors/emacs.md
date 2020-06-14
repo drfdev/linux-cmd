@@ -107,3 +107,49 @@ links:
 
 ---
 
+**Удаление**
+
+`DEL` / `backspace`: удаление символа
+
+`ctrl` + `d`: удаление символа (аналог del)
+
+`alt` + `d`: удаление слова 
+
+`alt` + `0`, `ctrl` + `k` / `ctrl` + `k`: удалить часть строку в начале / конце строки
+
+`ctrl` + `x`, `backspace` / `alt` + `k`: удалить часть в начале / конце предложения
+
+`ctrl` + `w`: убить регион
+
+`alt` + `w`: скопировать регион для удаления
+
+`alt` + `z`, <символ>: удалить все до символа
+
+`ctrl` + `y`: yank back last thing killed
+
+`alt` + `y`: replace last yank with previous kill
+
+---
+
+**Изменение форматирования CASE**
+
+`alt` + `u`: слово в uppercase
+
+`alt` + `l`: слово в lowercase
+
+`ctrl` + `x`, `ctrl` + `u`: регион в uppercase
+
+`ctrl` + `x`, `ctrl` + `l`: регион в lowercase
+
+---
+
+**Транспонирование**
+
+`ctrl` + `t`: символ
+
+`alt` + `t`: слово
+
+`ctrl` + `x`, `ctrl` + `t`: строку
+
+---
+
