@@ -2,6 +2,7 @@
 
 links: 
 1) https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf (eng, pdf)
+2) https://www.emacswiki.org/ (ru)
 
 ---
 
@@ -153,3 +154,36 @@ links:
 
 ---
 
+**Копировать-вставить**
+
+`ctrl` + `w`: вырезать выделенный текст
+
+`alt` + `w`: копировать выделенный текст
+
+`ctrl` + `y`: вставить скопированный текст
+
+---
+
+**Замена**
+
+`alt` + `x`, `replace-regexp` <искомый параметр> <изменяемый параметр>
+
+Пример:
+
+```
+public class Main {
+    public static void main(String[] args) {
+        List avl = null;
+    }
+}
+```
+`alt` + `x`, `replace-regexp`, `public`, `private`
+
+Результат:
+```
+private class Main {
+    private static void main(String[] args) {
+        List avl = null;
+    }
+}
+```
