@@ -10,6 +10,7 @@
 ;; emacs --version 26 
 (global-display-line-numbers-mode)
 
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 
 (custom-set-variables
