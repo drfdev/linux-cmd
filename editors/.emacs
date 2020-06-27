@@ -6,7 +6,7 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
-(add-to-list 'load-path "~/.emacs.d/")
+;; (add-to-list 'load-path "~/.emacs.d/")
 ;; emacs --version 26 
 (global-display-line-numbers-mode)
 
