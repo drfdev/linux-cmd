@@ -5,6 +5,10 @@
 
 (menu-bar-mode -1)
 (tool-bar-mode -1)
+(scroll-bar-mode -1)
+(set-default 'cursor-type 'bar)
+(column-number-mode)
+(fset 'yes-or-no-p 'y-or-n-p)
 
 ;; (add-to-list 'load-path "~/.emacs.d/")
 ;; emacs --version 26 
@@ -17,5 +21,4 @@
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(custom-enabled-themes (quote (tango-dark))))
-(custom-set-faces
- )
+(custom-set-faces)
