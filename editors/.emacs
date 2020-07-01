@@ -10,6 +10,11 @@
 (column-number-mode)
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; disable backup
+(setq backup-inhibited t)
+;; disable auto save
+(setq auto-save-default nil)
+
 ;; (add-to-list 'load-path "~/.emacs.d/")
 ;; emacs --version 26 
 (global-display-line-numbers-mode)
