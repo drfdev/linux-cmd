@@ -31,7 +31,7 @@
 (custom-set-faces)
 
 
-;; reme,ber last session
+;; remember last session
 (desktop-save-mode 1)
 ;; ru key mapping
 (define-key function-key-map [?\C-ч]    [?\C-x])
