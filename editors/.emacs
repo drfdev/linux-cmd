@@ -62,6 +62,10 @@
 (define-key function-key-map [?и]       [?b])
 (define-key function-key-map [?щ]       [?o])
 
+(define-key function-key-map [?\C-Ф]    [?\C-A])
+(define-key function-key-map [?\C-У]    [?\C-E])
+(define-key function-key-map [?\C-в]    [?\C-d])
+
 ;; My own keys
 ;; page scrolling (dosnt work)
 ;; (define-key (current-global-map) (kbd "M-[") 'beginning-of-buffer)
