@@ -24,6 +24,8 @@ $ cmatrix
 
 **banner**:
 
+Команда, конвертирут текст в виде ASCII-арта
+
 ```bash
 $ banner test
 ```
@@ -31,6 +33,8 @@ $ banner test
 ---
 
 **sl**:
+
+Расшифровывается как Stream Locomotive, запускает поезд из символов
 
 ```bash
 $ sl
@@ -40,6 +44,9 @@ $ sl
 
 **telnet**:
 
+Старый прикол, когда в ответ приходит картинка из символов похожая на логотип компании 20 век фокс
+На текущий момент не работает
+
 ```bash
 $ telnet towel.blinkenlights.nl
 ```
@@ -47,6 +54,8 @@ $ telnet towel.blinkenlights.nl
 ---
 
 **fortune**:
+
+Выводит забавное сообщение в терминал
 
 ```bash
 $ fortune
@@ -56,6 +65,8 @@ $ fortune
 
 **xcowsay**:
 
+Аналог cowsay, но в виде программы с графическим интерфейсом
+
 ```bash
 $ xcowsay test
 ```
@@ -63,6 +74,8 @@ $ xcowsay test
 ---
 
 **cowthink**:
+
+Аналог cowsay, то с думающей коровой
 
 ```bash
 $ cowthink ... something ...
@@ -72,6 +85,8 @@ $ cowthink ... something ...
 
 **toilet**:
 
+Аналог баннера, с настройками текста и цвета выводимых букв. Забавное имя команды.
+
 ```bash
 $ toilet -f mono12 -F metal TEST
 ```
@@ -79,6 +94,8 @@ $ toilet -f mono12 -F metal TEST
 ---
 
 **oneko**:
+
+Создает кошечку бегущую за курсором
 
 ```bash
 $ oneko
@@ -88,6 +105,8 @@ $ oneko
 
 **aafire**:
 
+Огонь в терминале
+
 ```bash
 $ apt-get install libaa-bin
 $ aafire
@@ -96,6 +115,8 @@ $ aafire
 ---
 
 **ASCIIquarium**:
+
+Создает аквариум с рыбками в терминале
 
 ```bash
 $ cd /tmp
